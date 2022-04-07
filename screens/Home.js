@@ -36,7 +36,7 @@ export default class HomeScreen extends Component {
           
           <TouchableOpacity
             style={styles.routeCard}
-            onPress={() => this.props.navigation.navigate('Meteors')}>
+            onPress={() => this.props.navigation.navigate('Meteoritos')}>
             <Text style={styles.routeText}>Meteoritos</Text>
             <Text style={styles.knowMore}>{'Más información --->'}</Text>
             <Image
@@ -46,7 +46,7 @@ export default class HomeScreen extends Component {
 
           <TouchableOpacity 
             style={styles.routeCard}
-            onPress={() => this.props.navigation.navigate('Updates')}>
+            onPress={() => this.props.navigation.navigate('Actualizaciones')}>
             <Text style={styles.routeText}>Actualizaciones</Text>
             <Text style={styles.knowMore}>{'Más información --->'}</Text>
             <Image
